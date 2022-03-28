@@ -298,6 +298,9 @@ width: 100%;
     background-color: #000 !important;
     color: #fff;
 }
+.disable{
+    display: none;
+}
 @media (max-width:800px){
     .baner{
         background-image: url("https://cdn.pixabay.com/photo/2020/06/17/04/29/nude-5308126_960_720.jpg");

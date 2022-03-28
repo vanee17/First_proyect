@@ -16,3 +16,8 @@ function boton(valor){
             document.getElementById('botom_log').classList.add('not-active');
             }
  }
+
+ function ver() {
+    document.getElementById("nuestros_productos").classList.remove("disable");
+    document.getElementById("pago").classList.remove("disable");
+ }
