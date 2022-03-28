@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    background-image: url("https://s2.pictoa.com/media/galleries/287/791/2877915fc78b7cdd29d/36586355fc78b88180b9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    position:fixed;
+    z-index: 20;
+    transition: 0.5s;
+    background:transparent;
+}
+.abajo{
+    background: rgb(0, 0, 0);
+    padding: 0px 20px;
+}
+li{
+    padding: 10px;
+    margin-left: 10px;
+}
+li a{
+    color: rgb(255, 255, 255);
+    font-family: 'Julee', cursive;
+    font-size: 1.6em;
+    justify-content:right;
+}
+li a:hover{
+    color: rgb(194, 0, 0);
+    text-decoration: none;
+}
+.caja2{
+    margin: 0px 30px 0px 20px;
+    border-radius: 15px;
+    border: rgb(255, 255, 255) solid 3px;
+    padding: 10px 20px;   
+    background-color:transparent; 
+}
+.caja2:hover{
+    border: rgb(194, 0, 0) solid 3px;
+    background-color: rgb(0, 0, 0);
+    color: #000;
+}
+.caja2 a{
+    color:rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: 'Julee', cursive;
+}
+.caja2 a:hover{
+    text-decoration: none;
+}
+.burger{
+    color: rgb(194, 0, 0);
+}
+.baner{
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/13/00/03/girl-1736419_960_720.jpg");
+    background-color: rgba(100, 47, 47, 0.582);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-blend-mode:screen;
+    background-position: center center;
+    height: 100vh;
+}
+.container{
+    max-width: 100%;
+}
+.carousel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: inherit;
+}
+.somos{
+    padding: 40px;
+}
+.somos h1{
+    font-family: 'Julee', cursive;
+    color: rgb(194, 0, 0);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+.somos p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    color: white;
+    text-align: justify;
+}
+.somos2{
+    background-image: url("https://media.istockphoto.com/vectors/abstract-red-blurred-lines-background-vector-id1269168880?k=20&m=1269168880&s=612x612&w=0&h=XOPX26LQSyyIASeUcj-vLCs0C5v01gDp8bq4UKHw9go=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+.somos2 h1{
+    font-family: 'Julee', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+}
+.somos2 p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right:5%;
+    text-align: justify;
+    line-height: 45px;
+}
+.img1{
+    width:100%;
+    border-radius: 0px 20px 0px 20px;
+    margin: 10%;
+}
+.cuadro{
+margin-top: 50px;
+width: 100%;
+}
+.somos3{
+    background-image: url("https://s2.pictoa.com/media/galleries/287/791/2877915fc78b7cdd29d/36586355fc78b846e43f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.521);
+    background-blend-mode: multiply;
+    min-height: 90vh;
+}
+.somos3 h1{
+    font-family: 'Julee', cursive;
+    color:rgb(0, 0, 0);
+    background-color: rgba(158, 16, 16, 0.623);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+}
+.somos3 li{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right:5%;
+    text-align: justify;
+    line-height: 45px;
+    list-style:circle;
+}
+.list1{
+    margin-left: 60px;
+    
+    list-style: circle;
+}
+.list2{
+    margin-right: 60px;
+    list-style: circle;
+}
+.somos4{
+    background-image: url("https://media.istockphoto.com/vectors/grey-white-tech-geometric-abstract-background-vector-id1044827998?k=20&m=1044827998&s=612x612&w=0&h=XRy20GFuUrHjpNVXXujMx349DMx5wtiDmf5OmjXrWgA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.somos4 h1{
+    font-family: 'Julee', cursive;
+    color:rgb(194, 0, 0);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.tarjeta{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 80%;
+    margin: 10px 0px 30px 0px;
+    background-color:transparent;
+    border: none;
+}
+.card-body{
+    padding-top: 40px;
+}
+.card p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5em;
+    color:rgb(194, 0, 0);
+    text-align: center;
+    line-height: 35px;
+}
+.img_card{
+    min-height: 280px;
+}
+.pago{
+    background-image: url("https://media.istockphoto.com/vectors/vibrant-vector-background-vector-id1167967103?k=20&m=1167967103&s=612x612&w=0&h=t_q_wTSc5fAttE21bC4OAdd1pZUTk2QXmVR5pHKuxig=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.pago h1{
+    font-family: 'Julee', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.pago p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+    color: white;
+    text-align: justify;
+    text-align: center
+}
+.tabla{
+    width: 60px;
+}
+.table-dark{
+    color: #fff;
+    background-color: #343a40;
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.main-head{
+    height: 150px;
+    background: #FFF;
+   
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 80%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+@media (max-width:800px){
+    .baner{
+        background-image: url("https://cdn.pixabay.com/photo/2020/06/17/04/29/nude-5308126_960_720.jpg");
+        background-color:rgb(17, 0, 0);
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-blend-mode:screen;
+        background-position: center center;
+        height: 70vh;
+    }
+    .body1{
+        background-image: url("https://cdn.pixabay.com/photo/2019/12/03/09/41/boudoir-4669610__340.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
+
+
+
+
