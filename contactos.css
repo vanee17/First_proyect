@@ -1,0 +1,46 @@
+.informacion{
+    background-color: #25d366;
+
+color: white;
+border-radius: 30px;
+border: #25d366 solid;
+display: flex;
+justify-content: center;
+}
+.informacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 10px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+.informacion li{
+    display: flex;
+align-items: center;
+}
+.contacto h1{
+    font-family: 'Julee', cursive;
+    font-size: 4em;
+    margin: 20px;
+}
+.informacion:hover{
+    background-color: #29a858;
+    border: #29a858 solid;
+}
+.contacto span{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+
+}
+.contacto{
+    background-image: url('https://cdn.pixabay.com/photo/2015/10/27/12/27/fire-1008926_960_720.jpg');
+    background-size: cover;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.contacto h2{
+    color: rgb(245, 245, 245);
+    font-family: 'Patrick Hand', cursive;
+}
