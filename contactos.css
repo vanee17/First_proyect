@@ -1,3 +1,36 @@
+.contacto{
+    background-image: url('https://media.istockphoto.com/photos/grunge-background-picture-id637350420?k=20&m=637350420&s=612x612&w=0&h=JyGkD_lC9eAiswveaJqtIZtYTZvLazrIAXCgHoxrzHA=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+.contacto h1{
+    font-family: 'Just Another Hand', sans-serif;
+    font-size: 5em;
+    margin: 20px;
+    text-align: center;
+}
+.contacto h2{
+    color: rgb(194, 18, 18);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.4em;
+}
+.contacto span{
+    color: rgb(197, 12, 12);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2em;
+}
+.horario{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 .informacion{
     background-color: #25d366;
 
@@ -19,28 +52,9 @@ justify-content: center;
     display: flex;
 align-items: center;
 }
-.contacto h1{
-    font-family: 'Julee', cursive;
-    font-size: 4em;
-    margin: 20px;
-}
+
 .informacion:hover{
     background-color: #29a858;
     border: #29a858 solid;
 }
-.contacto span{
-    color: white;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2em;
 
-}
-.contacto{
-    background-image: url('https://cdn.pixabay.com/photo/2015/10/27/12/27/fire-1008926_960_720.jpg');
-    background-size: cover;
-    padding-top:80px;
-    padding-bottom: 80px;
-}
-.contacto h2{
-    color: rgb(245, 245, 245);
-    font-family: 'Patrick Hand', cursive;
-}

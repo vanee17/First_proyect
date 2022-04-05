@@ -4,42 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contactos.css">
+    <link rel="stylesheet" href="style.css">
     <title>Contactos</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg col-12">
+        <a href="index.html" ><img src="./images/logo-fondo-negro.png" alt="" width="140px" height="80px"></a>
+        <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"  style="background-color: black !important;">
+            <ul class="navbar-nav  ml-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container contacto">
         <div class="row">
-          <div class="col-12">
-            <h1 style="text-align: center;color: white;">¡NO DUDES EN CONTACTARNOS!,AQUI TENEMOS<br>  TODO LO QUE BUSCAS</h1>
-            
-          </div>
-          <div class="col-md-6 col-12" style="    display: grid;
-          justify-content: center;">
-            <h2 class="subtitulos">Trabaja con nosotros</h2>
-            <span>Sextubeadmisiones@gmail.com</span><br>
-             <button class="informacion">
-              <li style="list-style: none;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-              </svg><a href="https://wa.link/vyd2ub" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i>Saber más</a>
-              </li>
-             </button>
-          </div>
-          <div class="col-md-6  col-12" style="    display: grid;
-          justify-content: center;">
-            <h2 class="subtitulos">Solicita nuestros productos</h2>
-            <span>Sextubeadmisiones@gmail.com </span><br>
-            <button class="informacion">
-              <li style="list-style: none;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-              </svg><a href="https://wa.link/vyd2ub" class="whatsapp" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i>Saber más</a>
-              </li>
-            </button>
-          </div>
-          <div class="col-12" style="text-align: center;font-weight: 500;">
+            <div class="col-12">
+                <h1>¡Contáctanos!</h1>
+            </div>
+            <div class="col-md-6 col-12">
+                <h2 class="subtitulos">Para solicitar nuestros productos y servicios contáctenos</h2>
+                <br>
+                <span>Sextubeatlantico@gmail.com</span>
+            </div>
+            <div class="col-md-6  col-12">
+                <h2 class="subtitulos">Para trabajar con nosotros contactemos</h2>
+                <br>
+                <span>Sextubeadmisiones@gmail.com</span>
+            </div>
+            <div class="col-12 horario">
             <span >En horario de 08:00 a.m a 23:59. De lunes a domingo.</span>
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- Footer -->
+<footer class="page-footer font-small" style="background-color: black;">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="color: aliceblue;">© 2022 Copyright:
+        <a href="/" style="color: rgb(194, 0, 0);">Vanessa Peña</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </body>
 </html>
