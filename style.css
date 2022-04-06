@@ -319,7 +319,7 @@ li a:hover{
 @media (max-width:800px){
     .baner{
         background-color:rgb(255, 255, 255);
-        height: 87vh;
+        height: 100vh;
     }
     .baner span{
         font-family: 'Just Another Hand', sans-serif;
