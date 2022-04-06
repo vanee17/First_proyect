@@ -264,6 +264,10 @@ li a:hover{
 
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
+    .banner2{
+        display: block;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -273,6 +277,10 @@ li a:hover{
 
     .register-form{
         margin-top: 10%;
+    }
+    .banner2{
+        display: block;
+        width: 100%;
     }
 }
 
