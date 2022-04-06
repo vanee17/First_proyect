@@ -14,23 +14,26 @@
 }
 .contacto h2{
     color: rgb(241, 18, 18);
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .contacto span{
     color: rgb(0, 0, 0);
-    font-family: 'Patrick Hand', cursive;
-    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
 }
 .contacto p{
     color:rgb(0, 0, 0);
-    font-size: 2em;
-    font-family: 'Patrick Hand', cursive;
+    font-size: 1.6em;
+    margin-top: 5px;
+    font-family: 'Montserrat', sans-serif;
 }
 .horario{
     display:flex ;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 .caja1{
     background-color: rgb(255, 255, 255);
