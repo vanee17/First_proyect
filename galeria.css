@@ -114,9 +114,16 @@ background-size: auto 100%;
     width: 25rem;
      height: 25rem;
 }
+
 @media(max-width:420px) {
     .card{
         width: 100% !important;
         height: 23rem;
+    }
+    body{
+        background-image: url("https://s1.pictoa.com/media/galleries/080/098/08009855803f7a611ca/193754955803f7bc33cd.jpg") !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
