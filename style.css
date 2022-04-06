@@ -252,13 +252,6 @@ li a:hover{
     z-index:999;
 }
 
-
-/*.main-head{
-    height: 150px;
-    background: #FFF;
-   
-}*/
-
 .sidenav {
     height: 100%;
     background-color: #000;
@@ -346,6 +339,14 @@ li a:hover{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }
+    .list1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list2{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
