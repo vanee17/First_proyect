@@ -5,7 +5,7 @@ body{
     background-attachment: fixed;
 }
 .navbar{
-    position:fixed;
+    position:fixed !important;
     z-index: 20;
     background:rgb(0, 0, 0);
     height: 90px;
