@@ -3,33 +3,53 @@
     padding: 0;
 }
 .body1{
-    background-image: url("https://s2.pictoa.com/media/galleries/287/791/2877915fc78b7cdd29d/36586355fc78b88180b9.jpg");
+    background-image: url('https://cdn.pixabay.com/photo/2021/09/25/10/08/road-6654573_960_720.jpg');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.logo{
+    color: rgb(206, 122, 13);
+    font-size: 3em;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Graduate', cursive;
+}
+.logo:hover{
+    text-decoration: none;
+    color: dimgray;
 }
 .navbar{
     position:fixed;
     z-index: 20;
-    background:rgb(0, 0, 0);
-    height: 90px;
+    background:transparent;
+    height: 65px;
+    transition: 0.5s;
+}
+.abajo{
+    background:#373737;
+    padding: 0px 10px;
+}
+.abajo li a{
+    color: rgb(206, 122, 13);
 }
 li{
-    padding: 10px;
-    margin-left: 10px;
+    padding: 6px;
 }
 li a{
-    color: rgb(255, 255, 255);
-    font-family: 'Just Another Hand', sans-serif;
-    font-size: 1.8em;
+    color:rgb(0, 0, 0);
+    font-family: 'Kelly Slab', cursive;
+    font-size: 1.3em;
     justify-content:right;
 }
 li a:hover{
-    color: rgb(194, 0, 0);
+    color:#f4f4f4;
     text-decoration: none;
 }
 .burger{
-    color: rgb(194, 0, 0);
+    color: rgb(206, 122, 13);
 }
 .container{
     max-width: 100%;
@@ -38,329 +58,495 @@ li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/18/21/30/bike-1836962_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.entrada{
+    display: flex;
+    padding: 30px;
+    margin-top: 200px;
+    margin-bottom: 160px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .baner p{
-    font-size: 2.3em;
+    font-size: 1.5em;
     font-weight: bold;
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BIZ UDMincho', serif;
 }
-.banner2{
-    display: none;
-}
-.carousel{
-    padding-top: 50px;
-    padding-bottom: 20px;
+.moto1{
+    margin-top: 110px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     position: inherit;
+    border-radius: 10% 0% 10% 0% !important;
 }
 .somos{
     padding: 30px;
 }
 .somos h1{
-    font-family: 'Just Another Hand', sans-serif;
-    color: rgb(194, 0, 0);
+    font-family: 'Kelly Slab', cursive;
+    color: rgb(206, 122, 13);
     font-size: 4em;
     justify-content: center;
     display: flex;
-    margin: 30px;
+    margin: 0px;
 }
 .somos p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BIZ UDMincho', serif;
     font-size: 1.3em;
     color: white;
     text-align: justify;
-    font-weight: bold;
 }
 .somos2{
-    background-image: url("https://media.istockphoto.com/vectors/abstract-red-blurred-lines-background-vector-id1269168880?k=20&m=1269168880&s=612x612&w=0&h=XOPX26LQSyyIASeUcj-vLCs0C5v01gDp8bq4UKHw9go=");
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/31/01/35/background-2022763__340.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     }
 .somos2 h1{
-    font-family: 'Just Another Hand', sans-serif;
+    font-family: 'Kelly Slab', cursive;
     color: rgb(255, 255, 255);
     font-size: 4em;
     justify-content: center;
     display: flex;
-    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
 }
 .somos2 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BIZ UDMincho', serif;
     font-size: 1.3em;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin-left: 5%;
     margin-right:5%;
     text-align: justify;
     margin-bottom: 20px;
 
 }
-.img1{
+.moto2{
     width:100%;
     border-radius: 0px 20px 0px 20px;
     margin: 15%;
-}
-.somos3{
-    background-image: url("https://s2.pictoa.com/media/galleries/287/791/2877915fc78b7cdd29d/36586355fc78b846e43f.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: rgba(0, 0, 0, 0.623);
-    background-blend-mode: multiply;
-    min-height: 90vh;
-}
-.somos3 h1{
-    font-family: 'Just Another Hand', sans-serif;
-    color:rgb(0, 0, 0);
-    background-color: rgba(158, 16, 16, 0.678);
-    font-size: 4em;
-    justify-content: center;
-    display: flex;
-    margin: 40px;
-}
-.somos3 li{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.3em;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    margin-left: auto;
-    margin-right:5%;
-    text-align: justify;
-    line-height: 35px;
-    list-style:circle;
-}
-.list1{
-    margin-left: 60px;
-    list-style: circle;
-}
-.list2{
-    margin-right: 60px;
-    list-style: circle;
-}
-.somos4{
-    background-image: url("https://media.istockphoto.com/vectors/grey-white-tech-geometric-abstract-background-vector-id1044827998?k=20&m=1044827998&s=612x612&w=0&h=XRy20GFuUrHjpNVXXujMx349DMx5wtiDmf5OmjXrWgA=");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.somos4 h1{
-    font-family: 'Just Another Hand', sans-serif;
-    color:rgb(194, 0, 0);
-    font-size: 4em;
-    justify-content: center;
-    display: flex;
-    margin: 30px;
-}
-.tarjeta{
-    display: flex;
-    justify-content: center;
-}
-.card{
-    width: 70%;
-    background-color:transparent;
-    border: none;
-}
-.card-body{
-    padding-top: 25px;
-}
-.card p{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.6em;
-    font-weight: bold;
-    color:rgb(194, 0, 0);
-    text-align: center;
-    line-height: 35px;
-}
-.img_card{
-    min-height: 200px;
+    height: 80%;
 }
 .somos5{
     background: rgb(0,0,0);
-    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(48,3,3,1) 46%, rgba(213,12,12,1) 79%);
+    background: linear-gradient(131deg, rgba(0,0,0,1) 12%, rgba(116,106,95,1) 80%, rgba(222,207,182,1) 99%);
 }
 .somos5 h1{
-    font-family: 'Just Another Hand', sans-serif;
-    color:rgb(194, 0, 0);
+    font-family: 'Kelly Slab', cursive;
+    color:rgb(206, 122, 13);
     font-size: 4em;
     justify-content: center;
     display: flex;
     margin: 50px;
 }
 .somos5 p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'BIZ UDMincho', serif;
     font-size: 1.3em;
     font-weight: bold;
     color: rgb(255, 255, 255);
     margin-left: 5%;
     margin-right:5%;
     text-align: justify;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     margin-top: 50px;
 }
-.pago{
-    background-image: url("https://media.istockphoto.com/vectors/vibrant-vector-background-vector-id1167967103?k=20&m=1167967103&s=612x612&w=0&h=t_q_wTSc5fAttE21bC4OAdd1pZUTk2QXmVR5pHKuxig=");
-    background-repeat: no-repeat;
+.somos3{
+    background-image: url("https://cdn.pixabay.com/photo/2018/10/29/19/14/motorcycle-3781800_960_720.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-blend-mode: multiply;
+    min-height: 90vh;
 }
-.pago h1{
-    font-family: 'Just Another Hand', sans-serif;
-    color:rgb(255, 255, 255);
+.somos3 h1{
+    font-family: 'Kelly Slab', cursive;
+    color:rgb(0, 0, 0);
+    background-color: rgba(206, 122, 13, 0.479);
     font-size: 4em;
     justify-content: center;
     display: flex;
-    margin: 50px;
+    margin: 40px;
 }
-.pago p{
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 1.3em;
-    font-weight: bold;
+.somos3 p{
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.5em;
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
     text-align: justify;
-    text-align: center
+    margin-bottom: 40px;
 }
-.tabla{
-    width: 60px;
+.somos3 li{
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    list-style:inside;
 }
-.table-dark{
-    color: #fff;
-    background-color: #343a40;
-    width: 50vw;
-    font-weight: bold;
+.list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: circle;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+    max-width: 450px;
+}
+
+/* ESTILOS DE VARIEDADES DE MOTOS */
+.seccion5 h1{
+    font-family: 'BIZ UDMincho', serif;
+    color:black;
+    display: flex;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.63);
+    text-align: center;
+    font-size: 4em;
+
+}
+.seccion5 h2{
+    font-family: 'BIZ UDMincho', serif;
+    color:rgb(206, 122, 13);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em white;
+}
+.cards1{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    margin: 20px;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
-    margin-right: auto;
-    margin-left: auto;
+    background-color:transparent;
+    border: none;
 }
-
-.btn-whatsapp {
-    display:block;
-    width:70px;
-    height:70px;
-    color:#fff;
-    position: fixed;
-    right:30px;
-    bottom:50px;
-    border-radius:50%;
-    line-height:80px;
-    text-align:center;
-    z-index:999;
+.tarjeta:hover {
+    transform: scale(1.15);
+    transition:1s all;
+    border-color: none !important;
 }
-
-.sidenav {
-    height: 100%;
-    background-color: #000;
-    overflow-x: hidden;
-    padding-top: 20px;
+.tarjeta p{
+    font-family: 'Kelly Slab', cursive;
+    color:rgb(206, 122, 13);
+    font-size: 2em;
+    margin-top: 20px;
+    padding-bottom: 0px;
 }
-
-
-.main {
-    padding: 0px 10px;
+.imagenCard{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://5.imimg.com/data5/TB/IY/GLADMIN-68162457/kawasaki-ninja-h2r-bike-500x500.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .banner2{
-        display: block;
-        width: 100%;
+.imagenCard2{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.motociclismo.es/uploads/s1/78/35/88/3/ducati-panigale-v4-2021-01.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagenCard3{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.motociclismo.es/uploads/static/motociclismo/upload/images/paragrapharticle/29979/paragrapharticle-70517-5954c291e2ee0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagenCard4{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.soymotero.net/sites/default/files/styles/max_width_800px/public/2016-10/2017_YAM_MT10DX_EU_BWM2_STU_002_03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#harley{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2015/08/453199-harley-davidson-fat-boy-s-mala-huesos.jpg?itok=fQvi6vj8');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#iron{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.harley-davidson.com/content/dam/h-d/images/product-images/bikes/motorcycle/2021/2021-iron-883/gallery/2021-iron-883-motorcycle-g2.jpg?impolicy=myresize&rw=820');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#yamahaX{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.excelenciasdelmotor.com/sites/default/files/u7/yamaha-xv950-2014_05.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#kawa2{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://fiberbull.com/wp-content/uploads/2019/12/Kawasaki-vulcan-s-650-20.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#yamahaW{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://i.pinimg.com/736x/00/2f/93/002f93e5e02d27a4e7b80c47b60dc3f0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#suzuki{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://cdp.azureedge.net/products-private/prod/9b45ffc5-989f-4ce2-9033-5383178b5279/6dac21e1-4f17-407e-8a45-a60101214792/00000000-0000-0000-0000-000000000000/6427266d-55c7-4d9b-ada5-ac3200525f69/f6267665-b7ca-413c-8a49-ac7e011fe68f/6000000001.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#kawaK{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://www.soymotero.net/sites/default/files/styles/amp_1200x675_16_9/public/2008-09/klx-250.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ktm{
+    width: 18rem;
+    height: 10rem;
+    background-image: url('https://s3.eu-west-1.amazonaws.com/cdn.motorbikemag.es/wp-content/uploads/2020/11/KTM-690-Enduro-R-2021-accion-4-530x397.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width:767px){
+    .tes{
+        display: grid !important;
+    }
+    .cards1{
+        display: grid;
     }
 }
 
-@media screen and (max-width: 450px) {
-    .login-form{
-        margin-top: 10%;
-    }
+/* ESTILOS DE ACCESORIOS*/
 
-    .register-form{
-        margin-top: 10%;
-    }
-    .banner2{
-        display: block;
-        width: 100%;
-    }
+.seccion6{
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/11/14/04/texture-1088149_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-@media screen and (min-width: 768px){
-    .main{
-        margin-left: 40%; 
-    }
-
-    .sidenav{
-        width: 40%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-    }
-
-    .login-form{
-        margin-top: 80%;
-    }
-
-    .register-form{
-        margin-top: 20%;
-    }
+.seccion6 h1{
+    font-family: 'Kelly Slab', cursive;
+    color: rgb(206, 122, 13);
+    font-size: 4em;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
 }
-
-
-.login-main-text{
-    margin-top: 20%;
-    padding: 60px;
-    color: #fff;
+.seccion6 p{
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    margin-bottom: 40px;
 }
-
-.login-main-text h2{
-    font-weight: 300;
+.carta h5{
+    font-family: 'BIZ UDMincho', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(206, 122, 13);
 }
-
-.btn-black{
-    background-color: #000 !important;
-    color: #fff;
+.carta p{
+    color: #000;
+    font-size: 1em;
+    font-family: 'BIZ UDMincho', serif;
+    padding: 0px;
 }
-.disable{
-    display: none;
+.caja{
+    box-shadow: 0px 0px 10px 0px #333 inset;
+}
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#casco{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFZa349CtXOESqPCO5fv99xA0SF7JqMO0Ruy2GmxoTopbM22TSJSMhiALOLHA6ikyxikw&usqp=CAU');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+#guantes{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://www.stracingstore.es/5870-12858-home_default/guantes-alpinestars-supertech-negro-blanco-rojo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+#botas{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB8dw0_1r70eRkYHlCgiuJEwAlWKEiRDb_SDKLma6hgeGD9k4egTKsPMc4ROtzgWuxJCQ&usqp=CAU');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+#chaqueta{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://motosvicente.es/1902-large_default/chaqueta-alpinestars-stella-t-gp-plus-r.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+#rodilleras{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_981395-MLM32406610922_102019-O.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+}
+#maletero{
+    width: 10rem;
+    height: 16rem;
+    background-image: url('https://tienda-yamaha.com.co/2877-home_default/maletero-en-polipropileno-yamaha-29lt.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
 }
 @media (max-width:800px){
     .baner{
-        background-color:rgb(255, 255, 255);
-        height: 90vh;
-    }
-    .baner span{
-        font-family: 'Just Another Hand', sans-serif;
-        color:rgb(231, 1, 1);
-        font-size: 2em;
-        justify-content: center;
-        display: flex;
-        font-weight: bold;
-        margin: 0px;
-    }
-    .baner1{
-        display: none;
-    }
-    .banner2{
-        display: block;
-        width: 100%;
+        background-image: url('https://i.pinimg.com/originals/9e/03/fe/9e03feaea3aa680ba1d3995cffc262b4.png');
+        height: 500px;
     }
     .body1{
-        background-image: url("https://s2.pictoa.com/media/galleries/287/791/2877915fc78b7cdd29d/36586355fc78b8175cd9.jpg");
+        background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-    .list1{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .list2{
-        margin-left: auto;
-        margin-right: auto;
-    }
     .baner p{
         display: none;
+    }
+    .logo{
+        font-size: 1.5em;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
+    }
+    .moto1{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        width: 270px;
+        position: inherit;
+        border-radius: 10% 0% 10% 0% !important;
+    }
+    .somos{
+        padding:0px;
+    }
+    .somos h1{
+        font-size: 3em;
+        align-items: center;
+        margin: 20px;
+    }
+    .somos2 h1{
+        font-size: 3em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .somos2 p{
+        margin-left: 0px;
+        margin-right:0px;
+        margin-bottom: 20px;
+    }
+    .moto2{
+        width:120%;
+        margin: 20px;
+        margin-left: 0px;
+    }
+    .somos5 h1{
+        font-size: 3em;
+        align-items: center;
+        margin: 30px;
+    }
+    .somos5 p{
+        margin-left: 0px;
+        margin-right:0px;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    .somos3{
+        background-image: url("https://images.pexels.com/photos/3876465/pexels-photo-3876465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: rgba(0, 0, 0, 0.493);
+        background-blend-mode: multiply;
+        min-height: 90vh;
+    }
+    .somos3 h1{
+        font-size: 2em;
+        margin: 20px;
+    }
+    .somos3 p{
+        padding-left:0px;
+        padding-right:0px;
+        margin-bottom: 40px;
+    }
+    .seccion5 h1{
+        font-size: 3em;
+    }
+    .seccion6 h1{
+        font-size: 3em;
+    }
+    .seccion6 p{
+        padding-left:0px;
+        padding-right:0px;
+    }
+    .fotos{
+        display: flex;
+        justify-content: center;
+    }
+    .carta h5{
+        justify-content: center;
+        text-align: center;
+    }
+    .tarjeta p{
+        text-align: center;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 1em rgb(0, 0, 0);
     }
 }
 
