@@ -451,7 +451,7 @@ li a:hover{
 @media (max-width:800px){
     .baner{
         background-image: url('https://i.pinimg.com/originals/9e/03/fe/9e03feaea3aa680ba1d3995cffc262b4.png');
-        height: 100%;
+        height: 100vh;
     }
     .body1{
         background-image: url("https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
@@ -470,7 +470,7 @@ li a:hover{
         margin-top: 10px;
         margin-bottom: 20px;
         margin-left: 0px;
-        width: 300px;
+        width: 310px;
         position: inherit;
         border-radius: 10% 0% 10% 0% !important;
     }
@@ -520,6 +520,7 @@ li a:hover{
     .somos3 h1{
         font-size: 2em;
         margin: 20px;
+        align-items: center;
     }
     .somos3 p{
         padding-left:0px;
